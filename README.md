@@ -1,19 +1,30 @@
 # TaskFlow Manager
 
 ## Descrição
-TaskFlow Manager é uma aplicação para gerenciar tarefas com integração de Vue.js e Elm. A aplicação permite aos usuários criar, editar, excluir e marcar tarefas como concluídas. Também oferece um contador de produtividade que exibe quantas tarefas foram completadas no dia.
 
-## Tecnologias Usadas
-- **Vue.js**: Framework JavaScript para construir a interface do usuário.
-- **Elm**: Usado para gerenciar o contador de produtividade e exibir o número de tarefas completadas.
-- **JSON Server**: Para simulação de uma API RESTful para persistência de dados localmente.
-- **TailwindCSS**: Framework de CSS para design responsivo e estilização moderna.
+O **TaskFlow Manager** é um aplicativo de gerenciamento de tarefas desenvolvido utilizando **Vue.js** para o front-end e **Elm** para o acompanhamento de produtividade. O projeto oferece funcionalidades para adicionar, listar e remover tarefas, além de calcular o número de tarefas concluídas.
+
+O banco de dados para persistência das tarefas é gerido com **JSON Server**.
+
+## Estrutura do Projeto
+
+O projeto é dividido em duas partes principais:
+
+1. **Vue.js** (para gerenciamento de tarefas):
+    - Permite adicionar, listar e excluir tarefas.
+    - Exibe o número de tarefas concluídas.
+
+2. **Elm** (para visualização de produtividade):
+    - Exibe o número de tarefas concluídas de forma simples.
+
+3. **JSON Server**:
+    - Usado para persistir as tarefas no formato JSON. 
 
 ## Como Rodar o Projeto
 
-### Passo 1: Clonar o repositório
+### Passo 1: Clonar o Repositório
 
-Clone o repositório para o seu computador:
+Clone este repositório para sua máquina local:
 
 ```bash
 git clone https://github.com/seu-usuario/TaskFlowManager.git
@@ -21,58 +32,53 @@ cd TaskFlowManager
 ```
 
 ### Passo 2: Instalar Dependências
-Instale as dependências do Vue.js e do Elm:
+### Vue.js
 
-Para Vue.js:
+Para rodar a parte do Vue.js, é necessário ter o Node.js e o Vue CLI instalados. Caso não tenha o Vue CLI, instale-o com o comando:
+```bash
+npm install -g @vue/cli
+```
+Instale as dependências do Vue.js:
 ```bash
 npm install
 ```
 
-Para Elm: Instale o compilador Elm, caso ainda não tenha: Instalar Elm
+### JSON Server
 
-Compile o código Elm:
-```bash
-elm make src/elm/ProductivityTracker.elm --output=src/elm/ProductivityTracker.js
-```
-
-### Passo 3: Rodar o Projeto
-Para rodar o servidor local do Vue.js:
-```bash
-npm run dev
-```
-
-### Passo 4: Rodar a API JSON Server
-Instale o **JSON Server** para simular a API:
+O projeto usa o **JSON Server** para simular um banco de dados. Instale o JSON Server globalmente com:
 ```bash
 npm install -g json-server
 ```
-Suba a API com o seguinte comando:
-```bash
-json-server --watch db.json
-```
-Isso permitirá que a aplicação interaja com a API simulada.
 
-### Passo 5: Acessar a Aplicação
-Abra o navegador e acesse:
+### Passo 3: Rodar o *JSON Server*
+
+Na raiz do projeto, execute o JSON Server para simular um banco de dados local:
 ```bash
-http://localhost:3000
+json-server --watch db.json --port 5000
 ```
+
+## Passo 4: Rodar o Front-end Vue.js
+
+Agora, para rodar a aplicação Vue.js, execute o seguinte comando:
+```bash
+npm run serve
+```
+Isso irá rodar o servidor de desenvolvimento local e você poderá acessar a aplicação em http://localhost:8080.
 
 ## Funcionalidades
+• **Adicionar tarefas:**
+Você pode adicionar novas tarefas através do campo de texto e clicar no botão "Adicionar Tarefa".
 
-• **Cadastro de tarefas:**
-Adicione tarefas com título e descrição.
+• **Remover tarefas:**
+As tarefas podem ser removidas clicando no botão "Excluir" ao lado da tarefa.
 
-• **Edição e exclusão de tarefas:**
-Modifique ou remova tarefas existentes.
+• **Exibir tarefas concluídas:** O número de tarefas concluídas será exibido abaixo da lista de tarefas.
 
-• **Contador de produtividade:**
-Exibe quantas tarefas foram concluídas no dia.
+• **Persistência de dados:** As tarefas são armazenadas localmente através do JSON Server.
 
-• **Filtro de status:**
-Filtre tarefas por "pendente" ou "concluída".
 
-• **Design responsivo:** A aplicação é otimizada para dispositivos móveis e desktops. 
+
+
 
 
 
