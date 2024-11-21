@@ -1,0 +1,12 @@
+/TaskFlowManager
+│
+├── /src
+│   ├── /vue
+│   │   └── App.vue
+│   └── /elm
+│       └── ProductivityTracker.elm
+│
+├── /db
+│   └── db.json
+│
+└── README.md
