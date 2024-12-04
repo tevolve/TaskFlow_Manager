@@ -3,7 +3,7 @@
 **TaskFlow Manager** é uma aplicação web criada para facilitar o gerenciamento de tarefas, utilizando Vue.js e Elm no front-end e JSON Server para persistência de dados. Este projeto foca em produtividade e simplicidade.
 
 ---
-
+<--
 ## 📋 Sumário
 
 1. 🤖 [Introdução](#introdução)  
@@ -16,7 +16,7 @@
 8. 👥 [Autores](#autores)  
 
 ---
-
+-->
 ## <a name=”introduction”>🤖 Introdução</a>
 
 O **TaskFlow Manager** combina o poder do **Vue.js** e **Elm** para criar uma experiência completa e agradável no gerenciamento de tarefas. Ele permite:
