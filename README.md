@@ -1,85 +1,77 @@
-# TaskFlow Manager
+# 📂 TaskFlow Manager
 
-## Descrição
+**TaskFlow Manager** é uma aplicação web criada para facilitar o gerenciamento de tarefas, utilizando Vue.js e Elm no front-end e JSON Server para persistência de dados. Este projeto foca em produtividade e simplicidade.
 
-O **TaskFlow Manager** é um aplicativo de gerenciamento de tarefas desenvolvido utilizando **Vue.js** para o front-end e **Elm** para o acompanhamento de produtividade. O projeto oferece funcionalidades para adicionar, listar e remover tarefas, além de calcular o número de tarefas concluídas.
+---
 
-O banco de dados para persistência das tarefas é gerido com **JSON Server**.
+## 📋 Sumário
 
-## Estrutura do Projeto
+1. 🤖 [Introdução](#introdução)  
+2. ⚙️ [Tech Stack](#tech-stack)  
+3. 🔋 [Recursos](#recursos)  
+4. 🤸 [Como usar](#como-usar)  
+5. 💾 [Variáveis de Ambiente](#variáveis-de-ambiente)  
+6. 📅 [Versões](#versões)  
+7. 🤝 [Contribuições](#contribuições)  
+8. 👥 [Autores](#autores)  
 
-O projeto é dividido em duas partes principais:
+---
 
-1. **Vue.js** (para gerenciamento de tarefas):
-    - Permite adicionar, listar e excluir tarefas.
-    - Exibe o número de tarefas concluídas.
+## 🤖 Introdução
 
-2. **Elm** (para visualização de produtividade):
-    - Exibe o número de tarefas concluídas de forma simples.
+O **TaskFlow Manager** combina o poder do **Vue.js** e **Elm** para criar uma experiência completa e agradável no gerenciamento de tarefas. Ele permite:
 
-3. **JSON Server**:
-    - Usado para persistir as tarefas no formato JSON. 
+- Adicionar, listar e excluir tarefas.
+- Visualizar o número de tarefas concluídas.
+- Persistir dados usando **JSON Server**.
 
-## Como Rodar o Projeto
+Ideal para quem busca produtividade e simplicidade, este projeto é uma ótima ferramenta para organizar suas atividades diárias.
 
-### Passo 1: Clonar o Repositório
+<a href="https://github.com/Tevolve" target="_blank">
+  <img src="https://img.shields.io/badge/Deixe_uma_estrela_-1A1A1A.svg?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-Clone este repositório para sua máquina local:
+---
+
+## ⚙️ Tech Stack
+
+- **Vue.js**  
+- **Elm**  
+- **JSON Server**
+
+---
+
+## 🔋 Recursos
+
+- **Adição e Exclusão de Tarefas**: Organize suas tarefas com facilidade.  
+- **Persistência de Dados**: As tarefas são salvas localmente usando o JSON Server.  
+- **Visualização de Produtividade**: Acompanhe o progresso com gráficos e indicadores visuais.  
+- **Interface Simples e Eficiente**: Desenvolvido com foco na usabilidade.  
+
+---
+
+## 🤸 Como usar
+
+**00 – Pré-requisitos**
+
+Certifique-se de ter as seguintes ferramentas instaladas:  
+
+- [Git](https://git-scm.com/)  
+- [Node.js](https://nodejs.org/)  
+- [npm](https://www.npmjs.com/)  
+
+**01 – Clonar o Repositório**  
 
 ```bash
-git clone https://github.com/seu-usuario/TaskFlowManager.git
+git clone https://github.com/Tevolve/TaskFlowManager.git
 cd TaskFlowManager
-```
 
-### Passo 2: Instalar Dependências
-### Vue.js
+# 02 – Instalar Dependências
 
-Para rodar a parte do Vue.js, é necessário ter o Node.js e o Vue CLI instalados. Caso não tenha o Vue CLI, instale-o com o comando:
-```bash
-npm install -g @vue/cli
-```
 Instale as dependências do Vue.js:
 ```bash
 npm install
 ```
-
-### JSON Server
-
-O projeto usa o **JSON Server** para simular um banco de dados. Instale o JSON Server globalmente com:
-```bash
-npm install -g json-server
-```
-
-### Passo 3: Rodar o *JSON Server*
-
-Na raiz do projeto, execute o JSON Server para simular um banco de dados local:
-```bash
-json-server --watch db.json --port 5000
-```
-
-## Passo 4: Rodar o Front-end Vue.js
-
-Agora, para rodar a aplicação Vue.js, execute o seguinte comando:
-```bash
-npm run serve
-```
-Isso irá rodar o servidor de desenvolvimento local e você poderá acessar a aplicação em http://localhost:8080.
-
-## Funcionalidades
-• **Adicionar tarefas:**
-Você pode adicionar novas tarefas através do campo de texto e clicar no botão "Adicionar Tarefa".
-
-• **Remover tarefas:**
-As tarefas podem ser removidas clicando no botão "Excluir" ao lado da tarefa.
-
-• **Exibir tarefas concluídas:** O número de tarefas concluídas será exibido abaixo da lista de tarefas.
-
-• **Persistência de dados:** As tarefas são armazenadas localmente através do JSON Server.
-
-
-
-
-
 
 
 
