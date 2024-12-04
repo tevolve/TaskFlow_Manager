@@ -115,16 +115,44 @@ JSON_SERVER_PORT=5000
 Contribuições, sugestões e novos recursos são bem-vindos!  
 
 1. Faça um fork do projeto:  
+
    ```bash
    git fork https://github.com/Tevolve/TaskFlowManager.git
 ```
 
 2. Crie uma branch para sua feature:
+
 ```bash
 git checkout -b minha-feature
 ```
 
 3. Commit suas alterações:
+
 ```bash
 git commit -m "Minha nova feature"
 ```
+
+4. Envie para a branch principal:
+
+```bash
+git push origin minha-feature
+```
+
+5. Abra um Pull Request.
+
+
+## 👥 Autores
+
+```markdown
+<table>
+  <tr>
+    <td>
+      <img src="https://avatars.githubusercontent.com/u/173099475?v=4" width="100" style="border-radius: 50%;">
+    </td>
+    <td>
+      <b>Tevolve</b><br>
+      <a href="https://www.linkedin.com/in/tev0lv3/" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/Tevolve" target="_blank">GitHub</a>
+    </td>
+  </tr>
+</table>
