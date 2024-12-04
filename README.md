@@ -145,7 +145,7 @@ git push origin minha-feature
 <table>
   <tr>
     <td>
-      <img src="https://avatars.githubusercontent.com/u/173099475?v=4" width="100" style="border-radius: 50%;">
+      <img src="https://github.com/tevolve width="100" style="border-radius: 50%;">
     </td>
     <td>
       <b>Tevolve</b><br>
