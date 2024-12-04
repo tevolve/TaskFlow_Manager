@@ -6,10 +6,10 @@
 
 ## 📋 Sumário
 
-1. 🤖 [Introdução](#introdução)  
-2. ⚙️ [Tech Stack](#tech-stack)  
-3. 🔋 [Recursos](#recursos)  
-4. 🤸 [Como usar](#como-usar)  
+1. 🤖 [Introdução](#Introdução)  
+2. ⚙️ [Tech Stack](#Tech-stack)  
+3. 🔋 [Recursos](#Recursos)  
+4. 🤸 [Como usar](#Como-usar)  
 5. 💾 [Variáveis de Ambiente](#variáveis-de-ambiente)  
 6. 📅 [Versões](#versões)  
 7. 🤝 [Contribuições](#contribuições)  
