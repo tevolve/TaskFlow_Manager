@@ -65,13 +65,49 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 ```bash
 git clone https://github.com/Tevolve/TaskFlowManager.git
 cd TaskFlowManager
-
-# 02 – Instalar Dependências
+```
+**02 – Instalar Dependências**
 
 Instale as dependências do Vue.js:
 ```bash
 npm install
 ```
+
+Instale o **JSON Server** globalmente:
+
+bash
+Copiar código
+```bash
+npm install -g json-server
+```
+
+**03 – Rodar o JSON Server**
+
+Na raiz do projeto, execute:
+```bash
+json-server --watch db.json --port 5000
+```
+
+**04 – Rodar o Front-end Vue.js**
+
+Execute o seguinte comando para iniciar a aplicação:
+```bash
+npm run serve
+```
+
+Acesse o projeto em http://localhost:8080.
+
+# 💾 Variáveis de Ambiente
+Defina as variáveis de ambiente no arquivo .env na raiz do projeto:
+```bash
+# Porta onde o servidor Vue.js será executado
+VUE_APP_PORT=8080
+
+# Porta usada pelo JSON Server
+JSON_SERVER_PORT=5000
+```
+
+
 
 
 
