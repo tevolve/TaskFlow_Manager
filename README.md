@@ -97,7 +97,7 @@ npm run serve
 
 Acesse o projeto em http://localhost:8080.
 
-# 💾 Variáveis de Ambiente
+## 💾 Variáveis de Ambiente
 Defina as variáveis de ambiente no arquivo ```.env``` na raiz do projeto:
 ```bash
 # Porta onde o servidor Vue.js será executado
@@ -107,7 +107,16 @@ VUE_APP_PORT=8080
 JSON_SERVER_PORT=5000
 ```
 
+## 📅 Versões
+• 1.0.0
+   •Primeira versão estável com funcionalidades completas.
 
+## 🤝 Contribuições
+1.Contribuições, sugestões e novos recursos são bem-vindos!
 
+Faça um fork do projeto:
+```bash
+git fork https://github.com/tevolve/TaskFlowManager.git
+```
 
 
