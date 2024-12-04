@@ -4,7 +4,8 @@
 
 ---
 
-## 📋 Sumário (Sumário em Construção)
+## 📋 Sumário
+(Sumário em Construção)
 
 1. 🤖 [Introdução](#introdução)  
 2. ⚙️ [Tech Stack](#tech-stack)  
@@ -139,12 +140,9 @@ git push origin minha-feature
 5. Abra um Pull Request.
 
 
-## 👥 Autores
+## 👥 Autor
 <table>
   <tr>
-    <td>
-      <img src="https://linkedin.com/in/tev0lv3 width="100" style="border-radius: 50%;">
-    </td>
     <td>
       <b>Tevolve</b><br>
       <a href="https://www.linkedin.com/in/tev0lv3/" target="_blank">LinkedIn</a> | 
