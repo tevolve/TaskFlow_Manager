@@ -3,8 +3,8 @@
 **TaskFlow Manager** é uma aplicação web criada para facilitar o gerenciamento de tarefas, utilizando Vue.js e Elm no front-end e JSON Server para persistência de dados. Este projeto foca em produtividade e simplicidade.
 
 ---
-"""
-## 📋 Sumário
+
+## 📋 Sumário (Sumário em Construção)
 
 1. 🤖 [Introdução](#introdução)  
 2. ⚙️ [Tech Stack](#tech-stack)  
@@ -15,7 +15,6 @@
 7. 🤝 [Contribuições](#contribuições)  
 8. 👥 [Autores](#autores)  
 
-"""
 ## <a name=”introduction”>🤖 Introdução</a>
 
 O **TaskFlow Manager** combina o poder do **Vue.js** e **Elm** para criar uma experiência completa e agradável no gerenciamento de tarefas. Ele permite:
@@ -144,7 +143,7 @@ git push origin minha-feature
 <table>
   <tr>
     <td>
-      <img src="https://github.com/tevolve width="100" style="border-radius: 50%;">
+      <img src="https://linkedin.com/in/tev0lv3 width="100" style="border-radius: 50%;">
     </td>
     <td>
       <b>Tevolve</b><br>
