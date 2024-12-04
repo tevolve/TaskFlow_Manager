@@ -108,15 +108,23 @@ JSON_SERVER_PORT=5000
 ```
 
 ## 📅 Versões
-• 1.0.0
-   •Primeira versão estável com funcionalidades completas.
+- **1.0.0**  
+  - Primeira versão estável com funcionalidades completas.  
 
 ## 🤝 Contribuições
-1.Contribuições, sugestões e novos recursos são bem-vindos!
+Contribuições, sugestões e novos recursos são bem-vindos!  
 
-Faça um fork do projeto:
-```bash
-git fork https://github.com/tevolve/TaskFlowManager.git
+1. Faça um fork do projeto:  
+   ```bash
+   git fork https://github.com/Tevolve/TaskFlowManager.git
 ```
 
+2. Crie uma branch para sua feature:
+```bash
+git checkout -b minha-feature
+```
 
+3. Commit suas alterações:
+```bash
+git commit -m "Minha nova feature"
+```
