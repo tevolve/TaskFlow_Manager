@@ -4,19 +4,7 @@
 
 ---
 
-## 📋 Sumário
-(Sumário em Construção)
-
-1. 🤖 [Introdução](#introdução)  
-2. ⚙️ [Tech Stack](#tech-stack)  
-3. 🔋 [Recursos](#recursos)  
-4. 🤸 [Como usar](#como-usar)  
-5. 💾 [Variáveis de Ambiente](#variáveis-de-ambiente)  
-6. 📅 [Versões](#versões)  
-7. 🤝 [Contribuições](#contribuições)  
-8. 👥 [Autores](#autores)  
-
-## <a name=”introduction”>🤖 Introdução</a>
+## 🤖 Introdução
 
 O **TaskFlow Manager** combina o poder do **Vue.js** e **Elm** para criar uma experiência completa e agradável no gerenciamento de tarefas. Ele permite:
 
@@ -26,7 +14,7 @@ O **TaskFlow Manager** combina o poder do **Vue.js** e **Elm** para criar uma ex
 
 Ideal para quem busca produtividade e simplicidade, este projeto é uma ótima ferramenta para organizar suas atividades diárias.
 
-<a href="https://github.com/Tevolve" target="_blank">
+<a href="https://github.com/tevolve" target="_blank">
   <img src="https://img.shields.io/badge/Deixe_uma_estrela_-1A1A1A.svg?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
