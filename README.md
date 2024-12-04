@@ -63,7 +63,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 **01 – Clonar o Repositório**  
 
 ```bash
-git clone https://github.com/Tevolve/TaskFlowManager.git
+git clone https://github.com/tevolve/TaskFlowManager.git
 cd TaskFlowManager
 ```
 **02 – Instalar Dependências**
@@ -98,7 +98,7 @@ npm run serve
 Acesse o projeto em http://localhost:8080.
 
 # 💾 Variáveis de Ambiente
-Defina as variáveis de ambiente no arquivo .env na raiz do projeto:
+Defina as variáveis de ambiente no arquivo ```.env``` na raiz do projeto:
 ```bash
 # Porta onde o servidor Vue.js será executado
 VUE_APP_PORT=8080
