@@ -116,8 +116,8 @@ Contribuições, sugestões e novos recursos são bem-vindos!
 
 1. Faça um fork do projeto:  
 
-git fork
-```bash https://github.com/tevolve/TaskFlowManager.git
+```bash
+git fork https://github.com/tevolve/TaskFlowManager.git
 ```
 
 2. Crie uma branch para sua feature:
